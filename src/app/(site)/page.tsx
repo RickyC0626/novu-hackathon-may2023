@@ -1,12 +1,11 @@
-import DisplayMap from "@/components/DisplayMap";
-import React, { Suspense } from "react";
+"use client";
+import MapboxGL from "@/components/MapboxGL";
+import React from "react";
 
 export default function Home() {
   return (
     <div>
-      <Suspense fallback={<p>Loading feed...</p>}>
-        <DisplayMap />
-      </Suspense>
+      <MapboxGL />
     </div>
   );
 }

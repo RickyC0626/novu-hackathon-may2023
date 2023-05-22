@@ -9,7 +9,7 @@ The ultimate service for managing multi-channel notifications with a single API.
 </div>
 
 <h3>Your Topic</h3>
-<p>(WIP) A notification system that sends real-time alerts for weather events, natural disasters, or other emergency situations.</p>
+<p><b>WanderAlert</b> - A notification system that sends real-time alerts for weather events, natural disasters, or other emergency situations. Specifically designed for travelers.</p>
 
 <h3>Technologies being used</h3>
 <p>Next.js, TypeScript, TailwindCSS</p>
@@ -35,14 +35,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+Setup environment variables in `.env.local`, use `.env.example` for reference.
+
+Run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
